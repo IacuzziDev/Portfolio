@@ -10,13 +10,14 @@
 }
 
 .gridContainer {
-    font-family: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: white;
     font-family: "eurostile", sans-serif ;
 }
+
+/* NAVBAR */ 
 
 nav {
     padding: 1rem;
@@ -67,6 +68,7 @@ nav ul .gitHub:hover {
     transition: 0.4s;
 }
 
+/* HEADER */
 
 header {
     background-color: white;
@@ -74,19 +76,64 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-        img {
-            margin: 2rem;
-            width: 12rem;
-            height: 12rem;
-            border-radius: 6rem;
-        }
+
+}
+
+header .titlepfp {
+    margin: 2rem 0 3rem ;
+    img {
+        margin: 2rem 2rem;
+        width: 12rem;
+        height: 13rem;
+        border-radius: 6rem;
+    }
+}
+
+header .bannerpfp {
+    img {
+        margin-bottom: -0.2rem;
+        max-width: 860px;
+    }
 }
 
 header .titles {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: xx-large;
         h2 {
             padding-left: 7rem;
             font-size: larger;
+            font-weight: light;
         }
+}
+
+/* MAIN */
+
+main {
+    background-color: #6E07F3;
+    padding-top: 8rem;
+    padding-bottom: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion h3 {
+    font-size: xx-large;
+    padding-bottom: 2rem;
+}
+
+.presentacion p {
+    width: 800px;
+    font-size: x-large;
+    line-height: 2rem;
+    text-align: center;
 }
