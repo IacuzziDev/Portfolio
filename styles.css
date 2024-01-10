@@ -22,6 +22,7 @@
 nav {
     padding: 1rem;
     margin: 1rem;
+    max-width: 1644px;
     background-color: white;
     display: flex;
     justify-content: end;
