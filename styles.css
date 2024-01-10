@@ -100,8 +100,8 @@ header .bannerpfp {
 header .titles {
     font-weight: bold;
     font-size: xx-large;
+    text-align: center;
         h2 {
-            padding-left: 7rem;
             font-size: larger;
             font-weight: light;
         }
@@ -138,3 +138,78 @@ main {
     line-height: 2rem;
     text-align: center;
 }
+
+/* SLIDER */ 
+
+@keyframes slide {
+	0% { transform: translateX(0); }
+	15% { transform: translateX(0); }
+
+	20% { transform: translateX(-100%); }
+	35% { transform: translateX(-100%); }
+
+	40% { transform: translateX(-200%); }
+	55% { transform: translateX(-200%); }
+
+	60% { transform: translateX(-300%); }
+	75% { transform: translateX(-300%); }
+
+	80% { transform: translateX(-400%); }
+	95% { transform: translateX(-400%); }
+
+	100% { transform: translateX(-500%); }
+}
+
+.wrapper {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 100%;
+    height: auto;
+	margin: 0;
+}
+
+.slider {
+	position: sticky;
+    width: 100%;
+        ul {
+            list-style: none;
+        }
+}
+
+.slides {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide {
+	width: 80vw;
+	flex-shrink: 0;
+	animation-name: slide;
+	animation-duration: 18s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.slides:hover .slide {
+	animation-play-state: runing;
+}
+
+
+.caption {
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 10rem;
+	position: sticky;
+	bottom: 8vw;
+	right: 40vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+
