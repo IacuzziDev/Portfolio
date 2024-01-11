@@ -9,14 +9,6 @@
     src: url(./Eurostile-Font/Eurostile.ttf);
 }
 
-.gridContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    font-family: "eurostile", sans-serif ;
-}
-
 /* NAVBAR */ 
 
 nav {
@@ -130,7 +122,7 @@ header .titles {
 main {
     background-color: #65c9ff;
     padding-top: 8rem;
-    padding-bottom: 18rem;
+    padding-bottom: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -238,6 +230,65 @@ main {
     }
 }
 
+/* Skills */
+
+.skillsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    height: auto;
+    margin-top: -10rem;
+}
+
+.cardsCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+}
+
+.skillsCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 12px;
+    border-left: 12px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+        ul {
+            list-style: none;
+            padding: 1rem;
+        };
+        h4 {
+            font-size: xx-large;
+            color: #6E07F3;
+            font-family: "Jost", sans-serif;
+            font-size: 32px;
+        };
+        
+}
+
+.skillsCards ul li {
+    margin-top: 1.6rem;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+}
+
+.skillsCards span {
+    font-size: 90px;
+    color: #65c9ff;
+    padding-bottom: 2rem;
+}
 /* @MEDIAQUERY */
 
 @media only screen and (max-width: 600px) {
