@@ -69,16 +69,16 @@ nav ul .linkedin:hover {
 }
 
 nav ul .gitHub {
-    color: #6E07F3;
+    color: #65c9ff;
     border: 1px solid;
     border-width: 2px;
     border-radius: 1rem;
-    border-color: #6E07F3;
+    border-color: #65c9ff;
     padding: 0.8rem 1.2rem;
 }
 
 nav ul .gitHub:hover {
-    background-color: #6E07F3;
+    background-color: #65c9ff;
     color: white;
     transition: 0.4s;
 }
@@ -128,7 +128,7 @@ header .titles {
 /* MAIN */
 
 main {
-    background-color: #6E07F3;
+    background-color: #65c9ff;
     padding-top: 8rem;
     padding-bottom: 18rem;
     display: flex;
