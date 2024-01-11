@@ -25,7 +25,21 @@ nav {
     max-width: 1644px;
     background-color: white;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+}
+
+nav button {
+    border: hidden;
+    background-color: transparent;
+        img {
+            width: auto;
+            height: auto;
+            transition: transform 0.2s ease-in-out;
+        }
+}
+
+nav button:hover img {
+    transform: scale(1.3);
 }
 
 nav ul {
@@ -99,13 +113,17 @@ header .bannerpfp {
 
 header .titles {
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 3rem;
     text-align: center;
         h2 {
-            font-size: larger;
+            font-size: 3rem;
             font-weight: light;
+            font-family: "Jost", sans-serif;
         }
-}
+        span {
+            font-family: "Lemon", serif;
+        }
+    }
 
 /* MAIN */
 
@@ -224,12 +242,10 @@ main {
 
 @media only screen and (max-width: 600px) {
     .gridContainer {
-        /* Ajustes para dispositivos pequeños */
         flex-direction: column;
     }
 
     nav {
-        /* Ajustes para la barra de navegación en dispositivos pequeños */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -237,7 +253,6 @@ main {
     }
 
     nav ul {
-        /* Ajustes para la lista de navegación en dispositivos pequeños */
         flex-direction: column;
         text-align: center;
             li {
@@ -246,52 +261,46 @@ main {
     }
 
     header .titlepfp {
-        /* Ajustes para el encabezado en dispositivos pequeños */
         margin: 1rem 0 2rem;
         text-align: center;
     }
 
     header .bannerpfp img {
-        /* Ajustes para la imagen del banner en dispositivos pequeños */
         width: 100%;
     }
 
-    header .titles h2 {
-        /* Ajustes para los títulos en dispositivos pequeños */
-        font-size: 1.5rem;
+    header .titles {
+            font-size: 2rem;
+            h2 {
+                font-size: 0,6rem;
+            }
     }
 
     main {
-        /* Ajustes para el contenido principal en dispositivos pequeños */
         padding-top: 4rem;
         padding-bottom: 10rem;
     }
 
     .presentacion h3 {
-        /* Ajustes para los títulos en dispositivos pequeños */
         font-size: 1.5rem;
         text-align: center;
     }
 
     .presentacion p {
-        /* Ajustes para el párrafo en dispositivos pequeños */
         padding: 0.3rem;
         text-align: center;
         width: 100%;
     }
 
     .wrapper {
-        /* Ajustes para el contenedor del slider en dispositivos pequeños */
         padding-top: 1rem;
     }
 
     .slide {
-        /* Ajustes para las diapositivas en dispositivos pequeños */
         width: 115vw;
     }
 
     .caption {
-        /* Ajustes para la leyenda en dispositivos pequeños */
         font-size: 5rem;
         bottom: 5vw;
         right: 20vw;
