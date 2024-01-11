@@ -257,7 +257,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
     width: 500px;
     height: 600px;
     background-color: white;
@@ -270,7 +270,7 @@ main {
         };
         h4 {
             font-size: xx-large;
-            color: #6E07F3;
+            color: #65c9ff;
             font-family: "Jost", sans-serif;
             font-size: 32px;
         };
@@ -285,9 +285,16 @@ main {
 }
 
 .skillsCards span {
-    font-size: 90px;
-    color: #65c9ff;
-    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 1rem;
+    font-size: 50px;
+    background-color: #5BE9B9;
+    color: black;
+    border-radius: 136px;
 }
 /* @MEDIAQUERY */
 
