@@ -238,7 +238,7 @@ main {
     align-items: center;
     padding: 3rem;
     height: auto;
-    margin-top: -10rem;
+    margin-top: -8rem;
 }
 
 .cardsCont {
@@ -342,9 +342,10 @@ footer {
 .contactoContainer ul li i {
     padding-right: 0.5rem;
 }
+
 /* @MEDIAQUERY */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .gridContainer {
         flex-direction: column;
     }
@@ -413,4 +414,56 @@ footer {
             padding-right: 1.5rem;
         }
     }
+
+    .skillsSection {
+        height: auto;
+        padding: 1rem;
+        margin-top: -5rem;
+    }
+
+    .cardsCont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skillsCards {
+        width: 100%;
+        height: auto;
+    }
+
+    .skillsCards ul {
+        padding: 0;
+    }
+
+    .skillsCards h4 {
+        font-size: large;
+    }
+
+    .skillsCards span {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 0.5rem;
+        font-size: 40px;
+    }
+
+    .contactoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contactoContainer h5 {
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .contactoContainer ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0.2rem;
+        margin: 0.5rem 0;
+    }
 }
+
