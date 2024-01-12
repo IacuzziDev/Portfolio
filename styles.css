@@ -296,6 +296,52 @@ main {
     color: black;
     border-radius: 136px;
 }
+
+/* FOOTER */ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.contactoContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: #7004f4;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    padding: 3rem;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 32px;
+        h5 {
+            padding-right: 2rem;
+            text-align: center;
+        }
+}
+
+.contactoContainer ul {
+    list-style: none;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 1rem;
+        }
+}
+
+.contactoContainer ul li i {
+    padding-right: 0.5rem;
+}
 /* @MEDIAQUERY */
 
 @media only screen and (max-width: 600px) {
