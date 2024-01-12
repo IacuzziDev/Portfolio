@@ -90,8 +90,8 @@ header .titlepfp {
     margin: 2rem 0 3rem ;
     img {
         margin: 2rem 2rem;
-        width: 12rem;
-        height: 13rem;
+        width: 14rem;
+        height: 15rem;
         border-radius: 6rem;
     }
 }
@@ -105,10 +105,10 @@ header .bannerpfp {
 
 header .titles {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
         h2 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: light;
             font-family: "Jost", sans-serif;
         }

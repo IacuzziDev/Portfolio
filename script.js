@@ -11,6 +11,6 @@ function changeLanguage(languageCode) {
 }
 
 
-window.onload = function() {
+window.onload = function() {  // Determina el idioma en el cual inicia la pagina al cargar 
     changeLanguage('es');
 }
