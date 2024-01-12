@@ -304,6 +304,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 2rem;
+    height: auto;
 }
 
 .contactoContainer {
@@ -314,7 +315,7 @@ footer {
     background-color: #7004f4;
     border-radius: 12px;
     box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
-    padding: 3rem;
+    padding: 1rem;
     color: black;
     font-family: "Jost", sans-serif;
     font-size: 32px;
