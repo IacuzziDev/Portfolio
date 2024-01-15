@@ -1,16 +1,20 @@
-function changeLanguage(languageCode) {
-    const elements = document.querySelectorAll('[class^="lang-"]');
+function toggleLanguage() {
+    let switcher = document.getElementById("languageSwitch");
     
-    elements.forEach(element => {
-        const langClass = element.classList[0];
-        
-        const shouldBeVisible = langClass === `lang-${languageCode}`; // Verifica si la clase coincide con el idioma actual
-        
-        element.style.display = shouldBeVisible ? 'block' : 'none'; // Aplica el estilo si debe estar visible o no 
-    });
-}
+    const argElements = document.querySelectorAll('.lang-es');
+    const usaElements = document.querySelectorAll('.lang-en');
 
+    if (switcher.checked) {
+      // Cambiar a inglés // 
+      argElements.forEach(element => element.style.display = 'none');
+      usaElements.forEach(element => element.style.display = 'block');
+    } else {
+      // Cambiar a español // 
+      argElements.forEach(element => element.style.display = 'block');
+      usaElements.forEach(element => element.style.display = 'none');
+    }
+  }
 
-window.onload = function() {  // Determina el idioma en el cual inicia la pagina al cargar 
-    changeLanguage('es');
-}
+  window.onload = function() {
+    toggleLanguage(); // Llamar a toggleLanguage al cargar la página para establecer el idioma inicial
+  }

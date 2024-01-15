@@ -19,8 +19,11 @@
   <body>
       <nav class="navbar">
         <div>
-          <button onclick="changeLanguage('es')"><img src="./public/argflag.png" alt="Argentina Flag"></button>
-          <button onclick="changeLanguage('en')"><img src="./public/usaflag.png" alt="Usa Flag"></button> 
+          <label>
+            <input type="checkbox" id="languageSwitch" onchange="toggleLanguage()">
+            <img src="./public/argflag.png" alt="Argentina Flag">
+            <img src="./public/usaflag.png" alt="USA Flag">
+          </label>
         </div>
         <ul>
           <li class="linkedin">
@@ -46,7 +49,7 @@
       <main>
         <section class="presentacion">
           <h3 class="lang-es">Hola, soy Lucas . Un gusto conocerte.</h3>
-          <h3 class="lang-en">Hi, I am Lucas . Nice to meet you.</h3>
+          <h3 class="lang-en" style="display:none;">Hi, I am Lucas . Nice to meet you.</h3>
           <p class="lang-es">
             Hace un año, decidí embarcarme en la emocionante travesía de
             convertirme en desarrollador front-end. Mi viaje comenzó en
@@ -62,7 +65,7 @@
             enfrentar nuevos desafíos y contribuir al éxito de un equipo de
             desarrollo!
           </p>
-          <p class="lang-en">
+          <p class="lang-en" style="display:none;">
             A year ago, I decided to embark on the exciting journey of becoming a front-end developer. My journey began at CoderHouse, where I absorbed knowledge about HTML, CSS, and JavaScript. Devoting daily hours to self-directed learning, I soon started building small personal projects to apply what I was learning. <br />
             Today, I feel ready and enthusiastic to take the next step: seeking my first job opportunity in the world of front-end development. I am eager to apply my newly acquired skills, my passion for technology, and my commitment to continuous learning in a work environment. I am prepared to face new challenges and contribute to the success of a development team!
           </p>
@@ -106,11 +109,11 @@
                 <li class="lang-es">Adaptabilidad y aprendizaje constante.</li>
                 <li class="lang-es">Colaboración y trabajo en equipo.</li>
                 <li class="lang-es">Creatividad y atención meticulosa.</li>
-                <li class="lang-en">Clear and effective communication.</li>
-                <li class="lang-en">Agile critical thinking.</li>
-                <li class="lang-en">Adaptability and continuous learning.</li>
-                <li class="lang-en">Collaboration and teamwork.</li>
-                <li class="lang-en">Creativity and meticulous attention.</li>
+                <li class="lang-en" style="display:none;">Clear and effective communication.</li>
+                <li class="lang-en" style="display:none;">Agile critical thinking.</li>
+                <li class="lang-en" style="display:none;">Adaptability and continuous learning.</li>
+                <li class="lang-en" style="display:none;">Collaboration and teamwork.</li>
+                <li class="lang-en" style="display:none;">Creativity and meticulous attention.</li>
               </ul>
             </div>
             <div class="skillsCards">
@@ -129,11 +132,11 @@
       <footer>
         <div class="contactoContainer">
           <h5 class="lang-es">Contacto:</h5>
-          <h5 class="lang-en">Contact info:</h5>
+          <h5 class="lang-en" style="display:none;">Contact info:</h5>
           <ul>
             <li>
               <a href = "mailto: iacuzzi.lucas.na@gmail.com" class="lang-es"><i class="fa-solid fa-envelope"></i>Correo</a>
-              <a href = "mailto: iacuzzi.lucas.na@gmail.com" class="lang-en"><i class="fa-solid fa-envelope"></i>Mail</a>
+              <a href = "mailto: iacuzzi.lucas.na@gmail.com" class="lang-en" style="display:none;"><i class="fa-solid fa-envelope"></i>Mail</a>
             </li>
             <li class="linkedin">
               <a href="https://www.linkedin.com/in/iacuzzilucas/" target="_blank"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
