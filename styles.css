@@ -121,7 +121,7 @@ header .titles {
 /* MAIN */
 
 main {
-    background-color: #65c9ff;
+    background: linear-gradient(0deg, rgba(201,226,241,1) 0%, rgba(101,201,255,1) 100%);
     padding-top: 8rem;
     padding-bottom: 10rem;
     display: flex;
@@ -327,8 +327,8 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    background-color: #7004f4;
-    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(112,4,244,1) 0%, rgba(255,255,255,0.8) 100%);
+    border-radius: 10px;
     box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
     padding: 1rem;
     color: black;
