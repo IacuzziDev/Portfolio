@@ -310,6 +310,24 @@ main {
     transform: rotate(180deg);
 }
 
+/* PROYECTOS */
+
+.proyectosSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.proyectosTittle { 
+    font-size: xx-large;
+    color: #65c9ff;
+    font-family: "Jost", sans-serif;
+    font-size: 32px;
+    padding-bottom: 2rem;
+} 
+
 
 
 /* FOOTER */ 
