@@ -328,6 +328,9 @@ main {
     padding-bottom: 2rem;
 } 
 
+.proyectosCards img {
+    border-radius: 12px;
+}
 
 
 /* FOOTER */ 
