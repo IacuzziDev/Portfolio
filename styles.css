@@ -18,6 +18,11 @@ nav {
     background-color: white;
     display: flex;
     justify-content: space-between;
+        span { 
+            color: black;
+            font-family: "jost", sans-serif;
+            font-size: small;
+    }
 }
 
 nav ul {
